@@ -1,0 +1,64 @@
+/* ============== Banner part css =========== */
+.bannerPart {
+  background: #faf6ff;
+  padding: 200px 0 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bannerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannerRight__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bannerPart::after {
+  position: absolute;
+  content: url("/src/assets/bannerWave.png");
+  bottom: 0;
+  left: 0;
+}
+
+.bannerLeft__tilte {
+  max-width: 700px;
+  color: #000;
+
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 115.7%;
+  letter-spacing: -1.14px;
+}
+
+.bannerLeft__tilte span {
+  color: #7c14fd;
+  font-family: Product Sans;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115.7%;
+  letter-spacing: -1.14px;
+}
+
+.contact__btn {
+  padding: 24px 56px;
+  border-radius: 20px;
+  background: #7c14fd;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contact__btn:hover {
+  box-shadow: 0px 26px 46px 0px rgba(124, 20, 253, 0.35);
+}
+
+.dbtn {
+  padding: 10px 20px;
+  background: #b20e0e;
+}
+/* ============== Banner part css =========== */

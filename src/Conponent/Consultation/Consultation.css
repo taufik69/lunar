@@ -1,0 +1,46 @@
+/* ================================= consultaionPart css =======================  */
+.consultaionPart {
+  background: url("../assets/FreeMeeting.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 258px 0;
+}
+
+.consultationWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.WrapperLeft__tilte {
+  color: #fff;
+  font-size: 50px;
+
+  font-weight: 700;
+}
+
+.WrapperRight__email {
+  width: 500px;
+  height: 77px;
+  border-radius: 1000px;
+  background: #fff;
+  border: none;
+  padding: 0 20px;
+}
+
+.WrapperRight__email:focus {
+  outline: 0;
+}
+.WrapperRight__email::placeholder {
+  font-size: 20px;
+  color: red;
+}
+
+.WrapperRight--button {
+  margin-top: 30px;
+  color: #fff;
+  background: #32046b;
+  box-shadow: 0px 41px 51px 0px rgba(118, 82, 164, 0.39);
+}
+/* ================================= consultaionPart css =======================  */
